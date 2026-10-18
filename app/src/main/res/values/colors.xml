@@ -1,0 +1,10 @@
+<resources>
+    <color name="primary_green">#3F7D57</color>
+    <color name="primary_green_dark">#2C5A3E</color>
+    <color name="accent_orange">#E8813A</color>
+    <color name="background_light">#FBF8F3</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="text_primary">#222222</color>
+    <color name="text_secondary">#6B6B6B</color>
+    <color name="chip_bg">#1F3F7D57</color>
+</resources>

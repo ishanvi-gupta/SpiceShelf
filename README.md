@@ -11,10 +11,9 @@ Activities + RecyclerView) — no Jetpack Compose, no Kotlin.
 - **Shopping list** (`ShoppingListActivity`) — pick recipes, ingredients are combined and quantities summed automatically, checkable items
 
 ## What's intentionally left out
-Offline persistence / local storage / sync, as requested. `RecipeRepository`
+Offline persistence / local storage / sync. `RecipeRepository`
 (`data/RecipeRepository.java`) holds everything **in memory only** — data
-resets whenever the app process is killed. To add persistence later, swap
-`RecipeRepository`'s internal `ArrayList`s for a Room database or similar.
+resets whenever the app process is killed.
 
 ## Opening the project
 1. Open Android Studio → **Open** → select the `RecipeAppJava` folder.
@@ -36,7 +35,6 @@ app/src/main/res/
 
 ## Notes
 - Sample data (3 recipes) is preloaded in `RecipeRepository.loadSampleData()`
-  so the app isn't empty on first launch — delete that call if you'd rather
-  start blank.
+  so the app isn't empty on first launch.
 - Icons use built-in Android system drawables (`@android:drawable/...`) so
   the project doesn't need custom image assets to run.
